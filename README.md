@@ -1,4 +1,4 @@
-# GOQ
+# goq
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/pureugong/goq)](https://goreportcard.com/report/github.com/pureugong/goq)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)

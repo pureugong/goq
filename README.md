@@ -10,21 +10,21 @@ go get -u github.com/pureugong/goq
 
 ## Getting Started
 ```golang
-    // 1. init goq manager
-	manager := goq.NewManager(ctx, 1, nil)
+// 1. init goq manager
+manager := goq.NewManager(ctx, 1, nil)
 
-	// 2. init goq workers
-	manager.InitWorkers(10, func() goq.Worker {
-		return NewWorkerSample()
-    })
+// 2. init goq workers
+manager.InitWorkers(10, func() goq.Worker {
+    return NewWorkerSample()
+})
 
-    // 3. enqueue tasks
-	for i := 0; i < 100; i++ {
-		manager.Enqueue(i)
-    }
-    
-    // 4. wait
-	manager.Wait()
+// 3. enqueue tasks
+for i := 0; i < 100; i++ {
+    manager.Enqueue(i)
+}
+
+// 4. wait
+manager.Wait()
 
 ```
 

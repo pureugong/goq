@@ -2,16 +2,20 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/pureugong/goq)](https://goreportcard.com/report/github.com/pureugong/goq)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/pureugong/goq)
 
 `goq` is a simple queue manager library
 
 ## Installation
+
 If using go modules.
+
 ```sh
 go get -u github.com/pureugong/goq
 ```
 
 ## Getting Started
+
 ```golang
 // 1. init goq manager
 manager := goq.NewManager(ctx, 1, nil)

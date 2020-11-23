@@ -1,5 +1,7 @@
 # GOQ
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/pureugong/goq)](https://goreportcard.com/report/github.com/pureugong/goq)
+
 `goq` is a simple queue manager library
 
 ## Installation
